@@ -6,11 +6,12 @@
 │   ├── mfcc_maxspc.ipynb  
 │   ├── liner_regression.ipynb  
 │   └── dataProcessor.py  
-├── 
 ├── dataset  
 │   ├── data.csv  
-│   └── predata.xlsx  
-└── README.md  
+│   └── predata.xlsx   
+└── poster.pdf  
+└── summary.pdf  
+└── README.md 
 
 * `src/`: ソースコードを格納します。
     * `src/get_features.ipynb/`: 音声データの読み込み、前処理、特徴量抽出を行い、統計的な相関分析を行うスクリプト。
