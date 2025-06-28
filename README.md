@@ -21,4 +21,6 @@
 * `dataset/`: データファイルを格納します。
     * `dataset/data.csv/`: 解析を行うためにpredata.xlsxに処理を行ったデータ。
     * `dataset/predata.xlsx/`: 処理する前のgoogleformから取得した、被検者100人分リッカート尺度で得たアンケートデータ。
+* `poster.pdf: 学会発表時のポスター。
+* `summary.pdf: 学会の梗概資料。
 
