@@ -4,22 +4,20 @@
 ├── src  
 │   ├── get_features.ipynb  
 │   ├── mfcc_maxspc.ipynb  
-│   └── liner_regression.ipynb  
-├── dataProcessor.py  
+│   ├── liner_regression.ipynb  
+│   └── dataProcessor.py  
+├── 
 ├── dataset  
 │   ├── data.csv  
 │   └── predata.xlsx  
 └── README.md  
 
-以下ディレクトリ構造
-
-以下ディレクトリ構造
 * `src/`: ソースコードを格納します。
-    * `src/get_features.ipynb/`: 音声データの読み込み、前処理、特徴量抽出に関するスクリプト。
-    * `src/mfcc_maxspc.ipynb/`: 統計的な相関分析を行うスクリプト。
-    *  `src/liner_regression.ipynb/`: 統計的な相関分析を行うスクリプト。
-    * `src/dataProcesser.py/`: 分析結果を可視化するためのスクリプト。
+    * `src/get_features.ipynb/`: 音声データの読み込み、前処理、特徴量抽出を行い、統計的な相関分析を行うスクリプト。
+    * `src/mfcc_maxspc.ipynb/`: MFCCの各次元の特徴を可視化するためのスクリプト。
+    *  `src/liner_regression.ipynb/`: 研究発表後、考察の一部を行うスクリプト。
+    * `src/dataProcesser.py/`: 特徴量抽出の関数を格納しているスクリプト。
 * `dataset/`: データファイルを格納します。
-    * `dataset/data.csv/`: 元の音声ファイルを配置します。
-    * `dataset/実験設問回答.xlsx/`: 処理済みデータや抽出された特徴量ファイルを保存します。
+    * `dataset/data.csv/`: 解析を行うためにpredata.xlsxに処理を行ったデータ。
+    * `dataset/predata.xlsx/`: 処理する前のgoogleformから取得した、被検者100人分リッカート尺度で得たアンケートデータ。
 
