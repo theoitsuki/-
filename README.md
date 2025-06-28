@@ -1,15 +1,15 @@
 # 声の主観的評価と音声特徴量の相関分析
 本プロジェクトは、音声の主観的な評価（好み，聞き取りやすさなど）が、どのような音声特徴量（基本周波数、各MFCC次元、db）と相関があるのかを分析することを目的としています。この分析により、音声品質の客観的な指標と人間の知覚との関連性を明らかにします。
 
-├── src
-│   ├── get_features.ipynb
-│   ├── mfcc_maxspc.ipynb
-│   └── liner_regression.ipynb
-├── dataProcessor.py
-├── dataset
-│   ├── data.csv
-│   └── .xlsx
-└── README.md
+├── src  
+│   ├── get_features.ipynb  
+│   ├── mfcc_maxspc.ipynb  
+│   └── liner_regression.ipynb  
+├── dataProcessor.py  
+├── dataset  
+│   ├── data.csv  
+│   └── predata.xlsx  
+└── README.md  
 
 以下ディレクトリ構造
 
